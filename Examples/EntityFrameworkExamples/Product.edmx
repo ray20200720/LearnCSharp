@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="HPIMESModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Product">
+          <Key>
+            <PropertyRef Name="ProductID" />
+          </Key>
+          <Property Name="ProductID" Type="char" MaxLength="10" Nullable="false" />
+          <Property Name="Model" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="PCBID" Type="varchar" MaxLength="32" />
+          <Property Name="PCBModel" Type="char" MaxLength="12" />
+          <Property Name="MAC" Type="varchar" MaxLength="32" />
+          <Property Name="UUID" Type="varchar" MaxLength="35" />
+          <Property Name="MBECR" Type="char" MaxLength="5" />
+          <Property Name="CVSN" Type="varchar" MaxLength="35" />
+          <Property Name="CUSTSN" Type="varchar" MaxLength="30" />
+          <Property Name="ECR" Type="char" MaxLength="5" />
+          <Property Name="PizzaID" Type="char" MaxLength="20" />
+          <Property Name="MO" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="UnitWeight" Type="decimal" Precision="10" Scale="2" />
+          <Property Name="CartonSN" Type="char" MaxLength="20" />
+          <Property Name="CartonWeight" Type="decimal" Precision="10" Scale="2" />
+          <Property Name="DeliveryNo" Type="char" MaxLength="20" />
+          <Property Name="PalletNo" Type="char" MaxLength="20" />
+          <Property Name="State" Type="varchar" MaxLength="64" />
+          <Property Name="OOAID" Type="char" MaxLength="20" />
+          <Property Name="PRSN" Type="varchar" MaxLength="32" />
+          <Property Name="Cdt" Type="datetime" Nullable="false" />
+          <Property Name="Udt" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="HPIMESModelStoreContainer">
+          <EntitySet Name="Product" EntityType="Self.Product" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="HPIMESModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Product">
+          <Key>
+            <PropertyRef Name="ProductID" />
+          </Key>
+          <Property Name="ProductID" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="Model" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="PCBID" Type="String" MaxLength="32" FixedLength="false" Unicode="false" />
+          <Property Name="PCBModel" Type="String" MaxLength="12" FixedLength="true" Unicode="false" />
+          <Property Name="MAC" Type="String" MaxLength="32" FixedLength="false" Unicode="false" />
+          <Property Name="UUID" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="MBECR" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
+          <Property Name="CVSN" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+          <Property Name="CUSTSN" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="ECR" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
+          <Property Name="PizzaID" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+          <Property Name="MO" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="UnitWeight" Type="Decimal" Precision="10" Scale="2" />
+          <Property Name="CartonSN" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+          <Property Name="CartonWeight" Type="Decimal" Precision="10" Scale="2" />
+          <Property Name="DeliveryNo" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+          <Property Name="PalletNo" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+          <Property Name="State" Type="String" MaxLength="64" FixedLength="false" Unicode="false" />
+          <Property Name="OOAID" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
+          <Property Name="PRSN" Type="String" MaxLength="32" FixedLength="false" Unicode="false" />
+          <Property Name="Cdt" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="Udt" Type="DateTime" Nullable="false" Precision="3" />
+        </EntityType>
+        <EntityContainer Name="HPIMESEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Product" EntityType="Self.Product" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="HPIMESModelStoreContainer" CdmEntityContainer="HPIMESEntities">
+          <EntitySetMapping Name="Product">
+            <EntityTypeMapping TypeName="HPIMESModel.Product">
+              <MappingFragment StoreEntitySet="Product">
+                <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+                <ScalarProperty Name="Model" ColumnName="Model" />
+                <ScalarProperty Name="PCBID" ColumnName="PCBID" />
+                <ScalarProperty Name="PCBModel" ColumnName="PCBModel" />
+                <ScalarProperty Name="MAC" ColumnName="MAC" />
+                <ScalarProperty Name="UUID" ColumnName="UUID" />
+                <ScalarProperty Name="MBECR" ColumnName="MBECR" />
+                <ScalarProperty Name="CVSN" ColumnName="CVSN" />
+                <ScalarProperty Name="CUSTSN" ColumnName="CUSTSN" />
+                <ScalarProperty Name="ECR" ColumnName="ECR" />
+                <ScalarProperty Name="PizzaID" ColumnName="PizzaID" />
+                <ScalarProperty Name="MO" ColumnName="MO" />
+                <ScalarProperty Name="UnitWeight" ColumnName="UnitWeight" />
+                <ScalarProperty Name="CartonSN" ColumnName="CartonSN" />
+                <ScalarProperty Name="CartonWeight" ColumnName="CartonWeight" />
+                <ScalarProperty Name="DeliveryNo" ColumnName="DeliveryNo" />
+                <ScalarProperty Name="PalletNo" ColumnName="PalletNo" />
+                <ScalarProperty Name="State" ColumnName="State" />
+                <ScalarProperty Name="OOAID" ColumnName="OOAID" />
+                <ScalarProperty Name="PRSN" ColumnName="PRSN" />
+                <ScalarProperty Name="Cdt" ColumnName="Cdt" />
+                <ScalarProperty Name="Udt" ColumnName="Udt" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="無" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
