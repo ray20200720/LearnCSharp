@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListIListExamples", "ListIL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalExample", "MinimalExample\MinimalExample.csproj", "{863CA4E2-8307-4504-A645-3DC0D9D5E80C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTypeExamples", "DataTypeExamples\DataTypeExamples.csproj", "{2DFB9102-CD1A-44B8-912D-F19D18D42AF8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{863CA4E2-8307-4504-A645-3DC0D9D5E80C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{863CA4E2-8307-4504-A645-3DC0D9D5E80C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{863CA4E2-8307-4504-A645-3DC0D9D5E80C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DFB9102-CD1A-44B8-912D-F19D18D42AF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DFB9102-CD1A-44B8-912D-F19D18D42AF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DFB9102-CD1A-44B8-912D-F19D18D42AF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DFB9102-CD1A-44B8-912D-F19D18D42AF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
