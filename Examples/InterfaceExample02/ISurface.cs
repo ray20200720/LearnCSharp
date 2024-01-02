@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace InterfaceExamples
+namespace InterfaceExample02
 {
-    interface IControl
+    interface ISurface
     {
         void Paint();
     }

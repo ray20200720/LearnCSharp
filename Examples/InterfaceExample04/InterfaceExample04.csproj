@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D352B303-E799-4723-BBAF-AE58088EBAFA}</ProjectGuid>
+    <ProjectGuid>{7F54E382-77F6-4546-B706-02115553A19D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>InterfaceExamples</RootNamespace>
-    <AssemblyName>InterfaceExamples</AssemblyName>
+    <RootNamespace>InterfaceExample04</RootNamespace>
+    <AssemblyName>InterfaceExample04</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IControl.cs" />
-    <Compile Include="ISurface.cs" />
+    <Compile Include="ILeft.cs" />
+    <Compile Include="IRight.cs" />
+    <Compile Include="Middle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SampleClass.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

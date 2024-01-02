@@ -4,23 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace InterfaceExamples
+namespace InterfaceExample03
 {
     class SampleClass : IControl, ISurface
     {
-        public void Paint()
-        {
-            Console.WriteLine("Paint method in SampleClass");
-        }
-
+        // 若要根據使用的介面呼叫不同的實作，您可以明確地實作介面成員。
         void IControl.Paint()
         {
-            System.Console.WriteLine("IControl.Paint");
+            Console.WriteLine("IControl.Paint");
         }
 
         void ISurface.Paint()
         {
-            System.Console.WriteLine("ISurface.Paint");
+            Console.WriteLine("ISurface.Paint");
         }
     }
 }
