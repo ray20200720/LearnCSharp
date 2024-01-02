@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalExample", "MinimalEx
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTypeExamples", "DataTypeExamples\DataTypeExamples.csproj", "{2DFB9102-CD1A-44B8-912D-F19D18D42AF8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructExamples", "StructExamples\StructExamples.csproj", "{B223185A-8333-45CA-97E0-AF0A940DD89A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{2DFB9102-CD1A-44B8-912D-F19D18D42AF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DFB9102-CD1A-44B8-912D-F19D18D42AF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DFB9102-CD1A-44B8-912D-F19D18D42AF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B223185A-8333-45CA-97E0-AF0A940DD89A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B223185A-8333-45CA-97E0-AF0A940DD89A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B223185A-8333-45CA-97E0-AF0A940DD89A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B223185A-8333-45CA-97E0-AF0A940DD89A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
