@@ -17,7 +17,7 @@ namespace LINQExamples
 
             Utl.PrintTitle("Example 6: Query variable");
 
-            int[] scores = [90, 71, 82, 93, 75, 82];
+            int[] scores = { 90, 71, 82, 93, 75, 82 };
 
             IEnumerable<int> scoreQuery = from score in scores
                                           where score > 80
