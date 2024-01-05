@@ -61,7 +61,7 @@
       </Button>
       <Button guid="guidVisualStudioExtensionExamplePackageCmdSet" id="cmdidFirstCommand" priority="0x0100" type="Button">
         <Parent guid="guidVisualStudioExtensionExamplePackageCmdSet" id="MyMenuGroup" />
-        <Icon guid="guidImages1" id="bmpPic1" />
+        <Icon guid="emacsIcon" id="emacsIcon1" />
         <Strings>
           <ButtonText>Run Emacs</ButtonText>
         </Strings>
@@ -77,6 +77,7 @@
             must be the actual index (1-based) of the bitmap inside the bitmap strip. -->
       <Bitmap guid="guidImages" href="Resources\Command.png" usedList="bmpPic1, bmpPic2, bmpPicSearch, bmpPicX, bmpPicArrows, bmpPicStrikethrough" />
       <Bitmap guid="guidImages1" href="Resources\FirstCommand.png" usedList="bmpPic1, bmpPic2, bmpPicSearch, bmpPicX, bmpPicArrows, bmpPicStrikethrough" />
+	  <Bitmap guid="emacsIcon" href="Resources\emacs.png" usedList="emacsIcon1" />
     </Bitmaps>
   </Commands>
 
@@ -108,5 +109,10 @@
       <IDSymbol name="bmpPicArrows" value="5" />
       <IDSymbol name="bmpPicStrikethrough" value="6" />
     </GuidSymbol>
+
+	<!-- Emacs GUID -->
+    <GuidSymbol name="emacsIcon" value="{240FF1C2-E354-45AB-A4BD-C29D82726841}">
+	  <IDSymbol name="emacsIcon1" value="1" />
+	</GuidSymbol>
   </Symbols>
 </CommandTable>

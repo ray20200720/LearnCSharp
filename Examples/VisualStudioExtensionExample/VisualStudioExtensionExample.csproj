@@ -75,6 +75,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\Command.png" />
+    <Content Include="Resources\emacs.png" />
     <Content Include="Resources\FirstCommand.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
