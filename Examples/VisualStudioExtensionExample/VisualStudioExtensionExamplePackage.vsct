@@ -63,7 +63,7 @@
         <Parent guid="guidVisualStudioExtensionExamplePackageCmdSet" id="MyMenuGroup" />
         <Icon guid="guidImages1" id="bmpPic1" />
         <Strings>
-          <ButtonText>Invoke FirstCommand</ButtonText>
+          <ButtonText>Run Emacs</ButtonText>
         </Strings>
       </Button>
     </Buttons>
