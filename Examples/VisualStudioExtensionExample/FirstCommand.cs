@@ -42,7 +42,8 @@ namespace VisualStudioExtensionExample
             commandService = commandService ?? throw new ArgumentNullException(nameof(commandService));
 
             var menuCommandID = new CommandID(CommandSet, CommandId);
-            var menuItem = new MenuCommand(this.StartNotepad, menuCommandID);
+            //var menuItem = new MenuCommand(this.StartNotepad, menuCommandID);
+            var menuItem = new MenuCommand(this.RunEmacs, menuCommandID);
             commandService.AddCommand(menuItem);
         }
 
@@ -86,6 +87,15 @@ namespace VisualStudioExtensionExample
 
             Process proc = new Process();
             proc.StartInfo.FileName = "notepad.exe";
+            proc.Start();
+        }
+
+        private void RunEmacs(object sender, EventArgs e)
+        {
+            ThreadHelper.ThrowIfNotOnUIThread();
+
+            Process proc = new Process();
+            proc.StartInfo.FileName = @"D:\Software\emacs-28.2\bin\runemacs.exe";
             proc.Start();
         }
     }
