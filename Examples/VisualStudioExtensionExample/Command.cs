@@ -89,7 +89,7 @@ namespace VisualStudioExtensionExample
         private void Execute(object sender, EventArgs e)
         {
             ThreadHelper.ThrowIfNotOnUIThread();
-            string message = string.Format(CultureInfo.CurrentCulture, "Inside {0}.MenuItemCallback()", this.GetType().FullName);
+            string message = "Hello World!";
             string title = "Command";
 
             // Show a message box to prove we were here
