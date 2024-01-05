@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathExamples", "MathExample
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassExamples", "ClassExamples\ClassExamples.csproj", "{BBD69E7D-CB5D-4788-B5F9-55DD14F2BB09}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateExamples", "DelegateExamples\DelegateExamples.csproj", "{32ED263E-DB21-4A77-84B2-9EFDF821FF5C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{BBD69E7D-CB5D-4788-B5F9-55DD14F2BB09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBD69E7D-CB5D-4788-B5F9-55DD14F2BB09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBD69E7D-CB5D-4788-B5F9-55DD14F2BB09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32ED263E-DB21-4A77-84B2-9EFDF821FF5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32ED263E-DB21-4A77-84B2-9EFDF821FF5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32ED263E-DB21-4A77-84B2-9EFDF821FF5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32ED263E-DB21-4A77-84B2-9EFDF821FF5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
