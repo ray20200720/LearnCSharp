@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Net.Http;
 using System.Text;
@@ -24,6 +25,14 @@ namespace HttpClientExample
                 // string responseBody = await client.GetStringAsync(uri);
 
                 Console.WriteLine(responseBody);
+
+                string docPath = Directory.GetCurrentDirectory();
+
+                // Write the string array to a new file named "WriteLines.txt".
+                using (StreamWriter outputFile = new StreamWriter(Path.Combine(docPath, "gnu.html")))
+                {
+                    outputFile.WriteLine(responseBody);
+                }
             }
             catch (HttpRequestException e)
             {
