@@ -43,6 +43,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpClientExample", "HttpCl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamWriterExample", "StreamWriterExample\StreamWriterExample.csproj", "{A0524AA0-23CD-4FA3-B766-4F8B9B52B194}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOExample", "IOExample\IOExample.csproj", "{8C2D2502-16A0-408D-A9FF-AC1E8A849AB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessExample", "ProcessExample\ProcessExample.csproj", "{8EA5EEAF-7328-4A97-99C2-29A9A236647E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +133,14 @@ Global
 		{A0524AA0-23CD-4FA3-B766-4F8B9B52B194}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0524AA0-23CD-4FA3-B766-4F8B9B52B194}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0524AA0-23CD-4FA3-B766-4F8B9B52B194}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C2D2502-16A0-408D-A9FF-AC1E8A849AB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C2D2502-16A0-408D-A9FF-AC1E8A849AB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C2D2502-16A0-408D-A9FF-AC1E8A849AB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C2D2502-16A0-408D-A9FF-AC1E8A849AB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EA5EEAF-7328-4A97-99C2-29A9A236647E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EA5EEAF-7328-4A97-99C2-29A9A236647E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EA5EEAF-7328-4A97-99C2-29A9A236647E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EA5EEAF-7328-4A97-99C2-29A9A236647E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
