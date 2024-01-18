@@ -13,9 +13,22 @@ namespace DapperExample
         static void Main(string[] args)
         {
             string cs = @"Data Source=.\Demo.db";
-            string sql = "SELECT * FROM Student; ";
-            
-            using (SQLiteConnection conn = new SQLiteConnection(cs))
+            string sql = "SELECT * FROM Student";
+
+            //QueryAllFromStudent(cs, sql);
+
+            //QueryFirstFromStudent(cs, sql);
+
+            //QueryFirstOrDefaultFromStudent(cs, sql);
+
+            QuerySingleFromStudent(cs, sql, 3);
+
+            Console.ReadKey();
+        }
+
+        static void QueryAllFromStudent(string connectionString, string sql)
+        {
+            using (SQLiteConnection conn = new SQLiteConnection(connectionString))
             {
                 var students = conn.Query<Student>(sql).ToList();
 
@@ -23,20 +36,33 @@ namespace DapperExample
                 {
                     Console.WriteLine("{0} {1} {2} {3}", student.ID, student.FirstName, student.LastName, student.Gender);
                 }
-
+            }
+        }
+        static void QueryFirstFromStudent(string connectionString, string sql)
+        {
+            using (SQLiteConnection conn = new SQLiteConnection(connectionString))
+            {
                 var firstStudent = conn.QueryFirst<Student>(sql);
                 Console.WriteLine("{0} {1} {2} {3}", firstStudent.ID, firstStudent.FirstName, firstStudent.LastName, firstStudent.Gender);
-
+            }
+        }
+        static void QueryFirstOrDefaultFromStudent(string connectionString, string sql)
+        {
+            using (SQLiteConnection conn = new SQLiteConnection(connectionString))
+            {
                 var firstOrDefaultStudent = conn.QueryFirstOrDefault<Student>(sql);
                 Console.WriteLine("{0} {1} {2} {3}", firstOrDefaultStudent.ID, firstOrDefaultStudent.FirstName, firstOrDefaultStudent.LastName, firstOrDefaultStudent.Gender);
-
+            }
+        }
+        static void QuerySingleFromStudent(string connectionString, string sql, int id)
+        {
+            using (SQLiteConnection conn = new SQLiteConnection(connectionString))
+            {
                 // QuerySingle 查詢結果若為多筆,則拋錯
-                sql = "SELECT * FROM Student WHERE ID = '5'; "; //此行註解則會報錯,因為查詢結果為多筆
+                sql = string.Format("{0} WHERE ID = '{1}';", sql, id); 
                 var singleStudent = conn.QuerySingle<Student>(sql);
                 Console.WriteLine("{0} {1} {2} {3}", singleStudent.ID, singleStudent.FirstName, singleStudent.LastName, singleStudent.Gender);
             }
-
-            Console.ReadKey();
         }
     }
 }
