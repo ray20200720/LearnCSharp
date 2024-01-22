@@ -59,6 +59,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializeExample", "Seriali
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4NetExample", "Log4NetExample\Log4NetExample.csproj", "{F33578FB-C0CD-4589-A3A3-580ED599593B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomExample", "RandomExample\RandomExample.csproj", "{75CE8287-FA28-469A-AF34-75C4331FFF6C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -177,6 +179,10 @@ Global
 		{F33578FB-C0CD-4589-A3A3-580ED599593B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F33578FB-C0CD-4589-A3A3-580ED599593B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F33578FB-C0CD-4589-A3A3-580ED599593B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75CE8287-FA28-469A-AF34-75C4331FFF6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75CE8287-FA28-469A-AF34-75C4331FFF6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75CE8287-FA28-469A-AF34-75C4331FFF6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75CE8287-FA28-469A-AF34-75C4331FFF6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
