@@ -9,10 +9,10 @@ using System.Threading.Tasks;
 namespace UnitTestMainLibraryExample.Tests
 {
     [TestClass()]
-    public class CalculatorTests
+    public class UnitTest1
     {
         [TestMethod()]
-        public void AddTest()
+        public void TestMethod1()
         {
             // Arrange
             var calculator = new Calculator();
