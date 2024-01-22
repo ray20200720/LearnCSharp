@@ -61,6 +61,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4NetExample", "Log4NetEx
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomExample", "RandomExample\RandomExample.csproj", "{75CE8287-FA28-469A-AF34-75C4331FFF6C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestMainLibraryExample", "UnitTestMainLibraryExample\UnitTestMainLibraryExample.csproj", "{D4A28A75-6FBF-47DD-9C7B-6321A409339F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestMainLibraryExampleTests", "UnitTestMainLibraryExampleTests\UnitTestMainLibraryExampleTests.csproj", "{9B4D4A6E-11AC-4E74-A477-744ED16ABCE0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -183,6 +187,14 @@ Global
 		{75CE8287-FA28-469A-AF34-75C4331FFF6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75CE8287-FA28-469A-AF34-75C4331FFF6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75CE8287-FA28-469A-AF34-75C4331FFF6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4A28A75-6FBF-47DD-9C7B-6321A409339F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4A28A75-6FBF-47DD-9C7B-6321A409339F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4A28A75-6FBF-47DD-9C7B-6321A409339F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4A28A75-6FBF-47DD-9C7B-6321A409339F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B4D4A6E-11AC-4E74-A477-744ED16ABCE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B4D4A6E-11AC-4E74-A477-744ED16ABCE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B4D4A6E-11AC-4E74-A477-744ED16ABCE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B4D4A6E-11AC-4E74-A477-744ED16ABCE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
