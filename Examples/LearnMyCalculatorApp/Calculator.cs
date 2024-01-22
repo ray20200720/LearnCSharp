@@ -25,6 +25,8 @@ namespace LearnMyCalculatorApp
 
         public int? Divide(int x, int y)
         {
+            //return x / y;
+
             try
             {
                 return x / y;
@@ -34,8 +36,6 @@ namespace LearnMyCalculatorApp
                 Console.WriteLine("Cannot divide by zero.");
                 return null;
             }
-
-            
         }
     }
 }
