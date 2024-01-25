@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClassLibraryExample
 {
-    class ConstName
+    public class ConstName
     {
         public const char AndChar = '&';
         public const char AtChar = '@';
@@ -39,13 +39,13 @@ namespace ClassLibraryExample
         public const string TildeStr = "~";
         public const string UnderScoreStr = "_";
 
-        class Letter
+        public class Letter
         {
             public const string Y = "Y";
             public const string N = "N";
         }
 
-        class DateFormat
+        public class DateFormat
         {
             public const string DateTimeFormat = "yyyyMMdd-HHmmss";
             public const string MM = "MM";
@@ -57,6 +57,7 @@ namespace ClassLibraryExample
             public const string YYMMddHH = "yyMMddHH";
             public const string yyMMddHHmmssffff = "yyMMddHHmmssffff";
             public const string yyyy = "yyyy";
+            public const string yyyyMM = "yyyyMM";
             public const string yyyyMMdd = "yyyyMMdd";
             public const string yyyyMMddHHmmss = "yyyyMMddHHmmss";
             public const string yyyyMMddHHmmssfff = "yyyyMMddHHmmss.fff";
