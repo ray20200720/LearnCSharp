@@ -81,6 +81,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsServiceExample", "Wi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsServiceInstallExample", "WindowsServiceInstallExample\WindowsServiceInstallExample.csproj", "{74801870-B30E-4E96-B107-C96773F22552}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebMVCExample", "WebMVCExample\WebMVCExample.csproj", "{813F65DA-18BD-4A0E-93A7-A2DFAACEE4CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -243,6 +245,10 @@ Global
 		{74801870-B30E-4E96-B107-C96773F22552}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74801870-B30E-4E96-B107-C96773F22552}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74801870-B30E-4E96-B107-C96773F22552}.Release|Any CPU.Build.0 = Release|Any CPU
+		{813F65DA-18BD-4A0E-93A7-A2DFAACEE4CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{813F65DA-18BD-4A0E-93A7-A2DFAACEE4CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{813F65DA-18BD-4A0E-93A7-A2DFAACEE4CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{813F65DA-18BD-4A0E-93A7-A2DFAACEE4CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
