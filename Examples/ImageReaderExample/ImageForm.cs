@@ -114,6 +114,9 @@ namespace ImageReaderExample
 
             // 将裁剪后的图像设置到 PictureBox 控件中
             pictureBox1.Image = croppedImage;
+
+            // 保存
+            croppedImage.Save(DateTime.Now.ToString("yyyyMMddhhmmss") + ".png");
         }
 
         private void btnImageCrop_Click(object sender, EventArgs e)
