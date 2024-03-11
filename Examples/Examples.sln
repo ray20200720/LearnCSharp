@@ -93,6 +93,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinForms屏幕截图", "Win
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFExample", "WCFExample\WCFExample.csproj", "{D77ACF88-B4A8-4D33-A520-EB9DD472C6A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFCaculatorExample", "WCFCaculatorExample\WCFCaculatorExample.csproj", "{F2F0EE46-A2E3-4855-8EB5-85D2BD85EA76}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -279,6 +281,10 @@ Global
 		{D77ACF88-B4A8-4D33-A520-EB9DD472C6A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D77ACF88-B4A8-4D33-A520-EB9DD472C6A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D77ACF88-B4A8-4D33-A520-EB9DD472C6A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2F0EE46-A2E3-4855-8EB5-85D2BD85EA76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2F0EE46-A2E3-4855-8EB5-85D2BD85EA76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2F0EE46-A2E3-4855-8EB5-85D2BD85EA76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2F0EE46-A2E3-4855-8EB5-85D2BD85EA76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
