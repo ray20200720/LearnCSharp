@@ -30,6 +30,7 @@ namespace WinForms屏幕截图
             int nYSrc,//源对象的左上角y坐标
             System.Int32 dwRop//光栅的操作值
             );
+
         [System.Runtime.InteropServices.DllImportAttribute("gdi32.dll")]
         private static extern IntPtr CreateDC(
             string lpszDriver,//驱动名称
@@ -37,6 +38,7 @@ namespace WinForms屏幕截图
             string lpszOutput,//无用，设为null
             IntPtr lpInitData//任意的打印机数据
             );
+
         private void button1_Click(object sender, EventArgs e)
         {
             IntPtr dc1 = CreateDC("DISPLAY", null, null, (IntPtr)null);
