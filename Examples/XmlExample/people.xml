@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<people>
+	<person>
+		<name>Ray</name>
+		<age>40</age>
+	</person>
+	<person>
+		<name>Yumiko</name>
+		<age>38</age>
+	</person>
+</people>
