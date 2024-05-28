@@ -11,7 +11,7 @@ namespace FileSystemWatcherExample
         // [FileSystemWatcher Class](https://learn.microsoft.com/en-us/dotnet/api/system.io.filesystemwatcher?view=netframework-4.8)
         static void Main(string[] args)
         {
-            var watcher = new FileSystemWatcher(@"D:\Ray\MyLabs\C#\FileSystemWatcher\");
+            var watcher = new FileSystemWatcher(@"D:\Ray\MyLabs\FileSystemWatcher\");
 
             watcher.NotifyFilter = NotifyFilters.Attributes
                 | NotifyFilters.CreationTime

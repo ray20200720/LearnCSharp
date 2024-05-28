@@ -97,6 +97,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFCaculatorExample", "WCFC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlExample", "XmlExample\XmlExample.csproj", "{BC3089E8-F663-4748-B62A-3F9CE882B2F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSystemWatcherExample", "FileSystemWatcherExample\FileSystemWatcherExample.csproj", "{768BB7C8-D406-40B4-87B4-F69B556C3DDA}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegexExample", "RegexExample\RegexExample.csproj", "{221E5AF0-0576-4856-98ED-9765E6F15FE5}"
 EndProject
 Global
@@ -293,6 +295,10 @@ Global
 		{BC3089E8-F663-4748-B62A-3F9CE882B2F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC3089E8-F663-4748-B62A-3F9CE882B2F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC3089E8-F663-4748-B62A-3F9CE882B2F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{768BB7C8-D406-40B4-87B4-F69B556C3DDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{768BB7C8-D406-40B4-87B4-F69B556C3DDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{768BB7C8-D406-40B4-87B4-F69B556C3DDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{768BB7C8-D406-40B4-87B4-F69B556C3DDA}.Release|Any CPU.Build.0 = Release|Any CPU		
 		{221E5AF0-0576-4856-98ED-9765E6F15FE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{221E5AF0-0576-4856-98ED-9765E6F15FE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{221E5AF0-0576-4856-98ED-9765E6F15FE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
